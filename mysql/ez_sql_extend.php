@@ -6,7 +6,7 @@
    */
 
 class ezSQL_mysql_extended extends ezSQL_mysql {
-   	/**
+   /**
      * Whether to use mysql_real_escape_string
      *
      * @since 2.8.0
@@ -166,8 +166,7 @@ class ezSQL_mysql_extended extends ezSQL_mysql {
       return parent::get_row($query, $output, $y);
     }
     
-    function get_results($query=null, $output = ARRAY_A)
-		{
+    function get_results($query=null, $output = ARRAY_A) {
       return parent::get_results($query, $output);
-		}
+    }
 }
