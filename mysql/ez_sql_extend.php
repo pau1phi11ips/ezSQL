@@ -2,6 +2,7 @@
 
   /* Extends ezSQL to allow SQL to be prepared. e.g. $ukcdb->get_var($ukcdb->prepare('SELECT name FROM users WHERE id = %d',$id));
    * get_row and get_results also defaults to ARRAY_A for output instead of OBJECT
+   * Call $db = new ezSQL_mysql_extended($dbuser,$dbpassword,$dbName,$dbhost);
    */
 
 class ezSQL_mysql_extended extends ezSQL_mysql {
